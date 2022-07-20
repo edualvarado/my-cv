@@ -746,7 +746,7 @@
   \skilltypestyle{#1} & \skillsetstyle{#2} \quad \skilltypestyle{#3} \quad \skillsetstyle{#4} \ \ \ \ \ \ \skilltypestyle{#5} \quad \skillsetstyle{#6} \\
 }
 \newcommand*{\cvskillnobreakthree}[6]{%
-  \skilltypestyle{#1} & \skillsetstyle{#2} \qquad\qquad \ \skilltypestyle{#3} \qquad\qquad\quad \ \ \skillsetstyle{#4} \quad \skilltypestyle{#5} \quad \ \ \skillsetstyle{#6} \\
+  \skilltypestyle{#1} & \skillsetstyle{#2} \qquad\qquad \ \skilltypestyle{#3} \qquad\qquad\quad \ \ \skillsetstyle{#4} \quad \ \skilltypestyle{#5} \quad \ \ \skillsetstyle{#6} \\
 }
 
 % Define an environment for cvitems(for cventry)
