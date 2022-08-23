@@ -737,16 +737,16 @@
 \newcommand*{\cvskill}[2]{%
 	\skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
-% Define a line of cv information(skill) - without breaks
+% Define a line of cv information(skill) - without breaks (quads in the beginning to center everything)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskillnobreak}[8]{%
-  \skilltypestyle{#1} & \skillsetstyle{#2} \quad \skilltypestyle{#3} \quad \skillsetstyle{#4} \quad \skilltypestyle{#5} \quad \skillsetstyle{#6} \quad \skilltypestyle{#7} \quad \skillsetstyle{#8} \\
+  \quad \qquad \qquad \qquad \qquad \skilltypestyle{#1} & \skillsetstyle{#2} \quad \skilltypestyle{#3} \quad \skillsetstyle{#4} \quad \skilltypestyle{#5} \quad \skillsetstyle{#6} \quad \skilltypestyle{#7} \quad \skillsetstyle{#8} \\
 }
 \newcommand*{\cvskillnobreaktwo}[6]{%
   \skilltypestyle{#1} & \skillsetstyle{#2} \quad \skilltypestyle{#3} \quad \skillsetstyle{#4} \ \ \ \ \ \ \skilltypestyle{#5} \quad \skillsetstyle{#6} \\
 }
 \newcommand*{\cvskillnobreakthree}[6]{%
-  \skilltypestyle{#1} & \skillsetstyle{#2} \qquad\qquad \ \skilltypestyle{#3} \qquad\qquad\quad \ \ \skillsetstyle{#4} \quad \ \skilltypestyle{#5} \quad \ \ \skillsetstyle{#6} \\
+  \skilltypestyle{#1} & \skillsetstyle{#2} \quad \quad \quad \ \ \ \skilltypestyle{#3} \qquad\qquad\quad \ \ \skillsetstyle{#4} \quad \ \ \ \ \skilltypestyle{#5} \ \ \ \ \ \ \skillsetstyle{#6} \\
 }
 
 % Define an environment for cvitems(for cventry)
