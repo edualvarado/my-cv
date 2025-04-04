@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1711388050.01309 "cv-eduardo-alvarado.xdv" "cv-eduardo-alvarado.pdf" "cv-eduardo-alvarado" 1711388051.39839 0
-  "cv-eduardo-alvarado.xdv" 1711388049 95176 dda229ece0006dd583b178da5224a205 "xelatex"
+["xdvipdfmx"] 1743098834.80662 "cv-eduardo-alvarado.xdv" "cv-eduardo-alvarado.pdf" "cv-eduardo-alvarado" 1743098836.70111 0
+  "cv-eduardo-alvarado.xdv" 1743098834 93112 154a4b988f361616caaa70758f5ee031 "xelatex"
   (generated)
   "cv-eduardo-alvarado.pdf"
   (rewritten before read)
-["xelatex"] 1711388045.94714 "c:/Users/ealvarad/Data/01 - Github/01 - edualvarado/my-cv/examples/cv-eduardo-alvarado.tex" "cv-eduardo-alvarado.xdv" "cv-eduardo-alvarado" 1711388051.38845 0
+["xelatex"] 1743098828.3346 "c:/Users/ealvarad/Data/01 - Github/01 - edualvarado/my-cv/examples/cv-eduardo-alvarado.tex" "cv-eduardo-alvarado.xdv" "cv-eduardo-alvarado" 1743098836.68351 0
   "awesome-cv.cls" 1706297537 30630 27143e1f48faf1e23e48b095f1a0887a ""
-  "c:/Users/ealvarad/Data/01 - Github/01 - edualvarado/my-cv/examples/cv-eduardo-alvarado.tex" 1711386941 4772 0a6d91d30f56576ddf214e3606b1fd8f ""
+  "c:/Users/ealvarad/Data/01 - Github/01 - edualvarado/my-cv/examples/cv-eduardo-alvarado.tex" 1743097826 4765 31e1642de928dca789d92798945d9003 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1711293500 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1711303105 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1711291952 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -174,17 +174,16 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1711290396 41663 c82a74d8036de408d74af2c8ae75c7e5 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1711303431 10850758 8ae8cb222ff659f37770ee65533ddc71 ""
   "c:/texlive/2024/texmf.cnf" 1711303150 713 e69b156964470283e0530f5060668171 ""
-  "cv-eduardo-alvarado.aux" 1711388049 72 e3975f61bf3f389acae1a5409d20f2c6 "xelatex"
-  "cv-eduardo-alvarado.tex" 1711386941 4772 0a6d91d30f56576ddf214e3606b1fd8f ""
-  "cv/ea/academic-activities-ea.tex" 1711387378 1435 20b2b51f6b6d15b19c10953cc50b71bd ""
-  "cv/ea/dissemination-ea.tex" 1706297537 3262 cf892d4e838ec915fb38798c8fd1ed34 ""
-  "cv/ea/education-ea.tex" 1711387186 2459 07e2866cb997fa49a2e9066b3a870b87 ""
-  "cv/ea/experience-ea.tex" 1711388045 4514 8d8159ecc93dbd010be5e96f93b31264 ""
+  "cv-eduardo-alvarado.aux" 1743098834 72 e3975f61bf3f389acae1a5409d20f2c6 "xelatex"
+  "cv-eduardo-alvarado.tex" 1743097826 4765 31e1642de928dca789d92798945d9003 ""
+  "cv/ea/academic-activities-ea.tex" 1743098827 2236 e94bcfdbb69b69c5e4dc59ba09cff0b0 ""
+  "cv/ea/dissemination-ea.tex" 1738578470 3301 3ca5579724d1a202f1bf233086b26ce6 ""
+  "cv/ea/education-ea.tex" 1738577640 2450 cafd7b89b9e9169d2372be0f1e60b25f ""
+  "cv/ea/experience-ea.tex" 1738595369 4552 227b100b529ef35e1660f5fe890e95ca ""
   "cv/ea/interests-ea.tex" 1706297537 983 42303042f4375eb2179795b2c6af32d4 ""
   "cv/ea/languages-ea.tex" 1706297537 760 d721fd773528651d5fca79b5aeda39c6 ""
-  "cv/ea/publications-ea.tex" 1711387643 3737 e47d96c7be4fca87fe7a25bc860c3079 ""
+  "cv/ea/publications-ea.tex" 1743098689 5922 59408406e8a70865bc9631d6d87a265b ""
   "cv/ea/skills-ea.tex" 1706297537 1587 855b0fb657f7ecf72593e7266d038472 ""
-  "cv/ea/teaching-experience-ea.tex" 1706297537 1034 32a427085407578c9369f95f10130dd5 ""
   (generated)
   "cv-eduardo-alvarado.aux"
   "cv-eduardo-alvarado.log"
