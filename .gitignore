@@ -21,3 +21,10 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+## Cover Letter documents:
+coverletter*
+coverletter.TeX
+coverletter.pdf
+coverletter.synctex.gz
+
+
