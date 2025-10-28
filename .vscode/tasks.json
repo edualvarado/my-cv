@@ -1,0 +1,110 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "XeLaTeX + Biber Build",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "cd '${fileDirname}'; xelatex '${fileBasenameNoExtension}.tex'; biber '${fileBasenameNoExtension}'; xelatex '${fileBasenameNoExtension}.tex'; xelatex '${fileBasenameNoExtension}.tex'"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": {
+                "owner": "latex",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": [
+                    {
+                        "regexp": "^(.*):(\\d+):\\s+(.*)",
+                        "file": 1,
+                        "line": 2,
+                        "message": 3
+                    }
+                ]
+            },
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        },
+        {
+            "label": "XeLaTeX Build (Single)",
+            "type": "shell",
+            "command": "xelatex",
+            "args": ["${fileBasenameNoExtension}.tex"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": {
+                "owner": "latex",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": [
+                    {
+                        "regexp": "^(.*):(\\d+):\\s+(.*)",
+                        "file": 1,
+                        "line": 2,
+                        "message": 3
+                    }
+                ]
+            },
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        },
+        {
+            "label": "Biber",
+            "type": "shell",
+            "command": "biber",
+            "args": ["${fileBasenameNoExtension}"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        },
+        {
+            "label": "Clean LaTeX Files",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "cd '${fileDirname}'; Remove-Item -Path '*.aux', '*.bbl', '*.bcf', '*.blg', '*.fdb_latexmk', '*.fls', '*.log', '*.out', '*.synctex.gz', '*.run.xml' -ErrorAction SilentlyContinue"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        }
+    ]
+}

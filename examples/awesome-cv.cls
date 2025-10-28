@@ -750,6 +750,19 @@
 }
 
 % Define an environment for cvitems(for cventry)
+\newenvironment{cvitemone}{%
+  \vspace{-8.0mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  \vspace{0mm}
+}
+
+% Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
   \begin{justify}
